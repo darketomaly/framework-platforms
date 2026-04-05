@@ -1,0 +1,18 @@
+{
+    "name": "darketomaly.framework.platforms.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cb33d2040c08e44419f71cf684d57d02"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

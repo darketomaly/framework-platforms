@@ -1,0 +1,24 @@
+{
+  "name": "com.darketomaly.framework.platforms",
+  "version": "0.0.1",
+  "displayName": "Framework Platforms",
+  "description": "Management for multi-platform and backend authentication.",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "dependencies": {
+    "com.darketomaly.framework-core": "https://github.com/darketomaly/framework-core.git?path=/Assets/com.darketomaly.framework.core"
+  },
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "author": {
+    "name": "Darketomaly",
+    "email": "create@darketomaly.hk",
+    "url": "https://darketomaly.hk"
+  }
+}
