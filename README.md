@@ -1,4 +1,4 @@
-# framework.core
+# framework.platforms
 
 How to install
 
