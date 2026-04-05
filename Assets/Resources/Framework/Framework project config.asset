@@ -16,3 +16,12 @@ MonoBehaviour:
   <DiscordWebhookUrl2>k__BackingField: 
   <DiscordWebhookUrl3>k__BackingField: 
   <IpCheckUrl>k__BackingField: https://api.ipify.org
+  m_Modules:
+  - rid: 2418989484377637099
+  references:
+    version: 2
+    RefIds:
+    - rid: 2418989484377637099
+      type: {class: PlatformProjectConfigData, ns: Framework, asm: darketomaly.framework.platforms.runtime}
+      data:
+        <PlayfabId>k__BackingField: 
