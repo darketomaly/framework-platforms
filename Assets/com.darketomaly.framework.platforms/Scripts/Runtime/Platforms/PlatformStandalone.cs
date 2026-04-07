@@ -68,7 +68,7 @@ namespace Framework.Platforms
                 CustomId = $"{SystemInfo.deviceUniqueIdentifier}",
 #endif
 
-                TitleId = GlobalData.PlayfabTitleId,
+                TitleId = FrameworkProjectConfig.Instance.GetModule<PlatformProjectConfigData>().PlayfabId,
                 InfoRequestParameters = combinedInfoRequestParams,
             };
 

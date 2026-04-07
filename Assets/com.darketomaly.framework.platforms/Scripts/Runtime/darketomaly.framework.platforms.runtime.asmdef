@@ -2,7 +2,9 @@
     "name": "darketomaly.framework.platforms.runtime",
     "rootNamespace": "",
     "references": [
-        "GUID:1827483a8a6786940b4ad040be88f273"
+        "darketomaly.framework.core.runtime",
+        "PlayFab",
+        "ParrelSync"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

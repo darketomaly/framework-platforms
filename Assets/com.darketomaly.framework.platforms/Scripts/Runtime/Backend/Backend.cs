@@ -68,7 +68,7 @@ namespace Framework.Platforms
         
         private void APILogin()
         {
-            PlayFabSettings.TitleId = GlobalData.PlayfabTitleId;
+            PlayFabSettings.TitleId = FrameworkProjectConfig.Instance.GetModule<PlatformProjectConfigData>().PlayfabId;
 
             var combinedRequestParams = new GetPlayerCombinedInfoRequestParams
             {
