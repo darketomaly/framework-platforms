@@ -8,6 +8,9 @@ namespace Framework
         [field: SerializeField] 
         public string PlayfabId { get; private set; }
         
+        [field: SerializeField] 
+        public string SteamAppId { get; private set; }
+        
         [MenuItem("Tools/Framework/Inject platform project config")]
         private static void InjectIfNeeded()
         {

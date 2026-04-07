@@ -75,7 +75,7 @@ namespace Framework.Platforms
         {
             try
             {
-                Steamworks.SteamClient.Init(GlobalData.SteamAppId, true);
+                Steamworks.SteamClient.Init(FrameworkProjectConfig.Instance.GetModule<PlatformProjectConfigData>().SteamAppId, true);
 
                 this.Log("Attempting to get steam ticket");
                 
@@ -168,7 +168,7 @@ namespace Framework.Platforms
             {
                 CreateAccount = true,
                 SteamTicket = PlatformManager.Instance.SessionTicket,
-                TitleId = GlobalData.PlayfabTitleId,
+                TitleId = FrameworkProjectConfig.Instance.GetModule<PlatformProjectConfigData>().PlayfabTitleId,
                 TicketIsServiceSpecific = true,
                 InfoRequestParameters = combinedInfoRequestParams,
             };
