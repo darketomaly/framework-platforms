@@ -8,7 +8,7 @@ https://github.com/darketomaly/framework-platforms.git?path=/Assets/com.darketom
 # Dependencies
 Note that these need to be installed before installing the platform package.
 
-1.Framework.core
+1. Framework.core
 2. Playfab
 3. ParrelSync
 4. Facepunch steamworks (if developing on Steam). Use #STEAMWORKS define symbol
