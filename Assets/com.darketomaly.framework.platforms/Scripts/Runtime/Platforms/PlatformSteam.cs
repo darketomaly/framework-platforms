@@ -168,7 +168,7 @@ namespace Framework.Platforms
             {
                 CreateAccount = true,
                 SteamTicket = PlatformManager.Instance.SessionTicket,
-                TitleId = FrameworkProjectConfig.Instance.GetModule<PlatformProjectConfigData>().PlayfabTitleId,
+                TitleId = FrameworkProjectConfig.Instance.GetModule<PlatformProjectConfigData>().PlayfabId,
                 TicketIsServiceSpecific = true,
                 InfoRequestParameters = combinedInfoRequestParams,
             };
